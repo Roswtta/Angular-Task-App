@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+input {
+    padding: 4px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.form-control-check {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.btn-block {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.btn {
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.01);
+}
